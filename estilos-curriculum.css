@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.div{
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid rgba(182, 67, 86, 0.935);
+}
+.cv-nombre{
+    background: rgba(182, 67, 86, 0.935);
+    color: white;
+    padding: 60px 20px 20px;
+    text-align: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+.cv-profesion{
+    background-color: rgba(182, 67, 86, 0.31);
+    padding: 20px;
+    text-align: right;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.data-personal{
+    display: flex;
+}
+.cv-left{
+    background: rgba(182, 67, 86, 0.091);
+    width: 35%;
+    padding: 25px;
+    padding-top: 200px;
+    border-right: 1px solid rgba(182, 67, 86, 0.935);
+}
+.cv-right{
+    width: 65%;
+    right: 15px;
+    padding: 25px;
+    background: rgba(233, 231, 231, 0.345);
+}
+.foto-curriculum{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 10px double white;
+    position: absolute;
+    margin: 35px;
+    top: 0;
+}
+.p-section{
+    padding: 15px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+hr{
+    border: 0;
+    border-top: 2px solid #3e3c3c;
+}
+.cv-ul{
+    list-style: none;
+}
+.li-principal{
+    color: rgba(182, 67, 86, 0.935);
+    padding: 5px;
+    font-weight: bold;
+}
+.li-secundario{
+    padding: 5px;
+    padding-bottom: 20px;
+}
+.info-item{
+    display: flex;
+}
+.ico{
+    font-size: 25px;
+    color: rgb(48, 48, 48);
+    padding: 7px;
+}
+.data{
+    font-size: 20px;
+    padding: 7px;
+}
+.perfil-profesional{
+    text-align: justify;
+    padding-top: 15px;
+}
+.cv-section{
+    padding: 10px;
+    font-size: 20px;
+}
+.skill{
+    color: rgba(182, 67, 86, 0.935);
+    padding:5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.ul-skill{
+    padding-left: 20px;
+}
+.li-skill{
+    list-style-position: inside;
+    padding: 5px;
+}
+.cv-experiencia{
+    padding-bottom: 10px;
+}
+.p-experiencia{
+    color: rgba(0, 0, 0, 0.935);
+    font-weight: bold;
+    padding: 10px 0;
+}
+.pp-experiencia{
+    padding: 5px 0;
+}
+
+
+
+
